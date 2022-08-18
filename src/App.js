@@ -1,7 +1,8 @@
 import './App.css';
 import React, { useState } from 'react';
 import Die from './components/Die';
-import { nanoid } from 'https://cdn.jsdelivr.net/npm/nanoid/nanoid.js'; //generate random ID
+// import { nanoid } from 'https://cdn.jsdelivr.net/npm/nanoid/nanoid.js'; //generate random ID
+import { nanoid } from 'nanoid';
 import Confetti from 'react-confetti';
 function App() {
   const [dice, setDice] = React.useState(allNewDice());
